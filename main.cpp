@@ -3,4 +3,5 @@
 int main() {
 	GoldenRatio(7, 10, 0.1);
 	std::cout << std::endl;
+	PassiveSearch(7, 10, 0.1);
 }
