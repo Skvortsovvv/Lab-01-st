@@ -45,7 +45,7 @@ void PassiveSearch(int a, int b, double epsilon) {
 		double precision = CalcPrecision(a, b, N);
 		std::cout << std::left << "| " << std::setw(10) << N << "| "
 			<< std::setw(4) << *values.begin()->second.begin() << " +- "
-			<< std::setw(5) << std::setprecision(2) << precision << " |" << std::endl;
+			<< std::setw(5) << std::setprecision(3) << L << " |" << std::endl;
 		if (L > epsilon) {
 			++N;
 		}
